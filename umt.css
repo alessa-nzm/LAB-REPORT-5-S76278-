@@ -1,0 +1,123 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+}
+
+/* Top Purple Navigation */
+.top-nav {
+    background: #3b1778;
+    padding: 8px 20px;
+    display: flex;
+    gap: 25px;
+}
+
+.top-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.top-nav a:hover {
+    opacity: 0.7;
+}
+
+/* UMT Logo Row */
+.umt-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.umt-header img {
+    height: 80px;
+}
+
+.search-box input {
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-box button {
+    padding: 7px 10px;
+    background: #3b1778;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+/* Hero Image Banner */
+.hero img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Main Navigation */
+nav {
+    background: #2f237c;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    opacity: 0.7;
+}
+
+/* Content Section */
+section {
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+article p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #bbb;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Footer */
+footer {
+    background: #dfe3f5;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
